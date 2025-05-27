@@ -19,11 +19,11 @@ const Event = sequelize.define('Event', {
         allowNull: false
     },
     totalSeats: {
-        type: DataTypes.NUMBER,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
     availableSeats: {
-        type: DataTypes.NUMBER,
+        type: DataTypes.INTEGER,
         allowNull: false
     }
 });
