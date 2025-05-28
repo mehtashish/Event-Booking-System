@@ -63,14 +63,20 @@ node .\index.js
 
 ---
 
+### 📆 Booking API Endpoints
+
+| Method | Endpoint                  | Description                |
+| ------ | ------------------------- | -------------------------- |
+| POST   | `/book/:eventID`          | Book an event (by user)    |
+| DELETE | `/book/cancel/:bookingID` | Cancel a booking           |
+
+---
+
 ### 📆 Booking System (To Be Developed)
 
 | Task                             | Status             |
 | -------------------------------- | ------------------ |
-| Book an event (by user)          | ❌ Work in progress |
-| Cancel a booking                 | ❌ Work in progress |
 | View user bookings               | ❌ Work in progress |
-| Reduce availableSeats on booking | ❌ Work in progress |
 | Prevent overbooking              | ❌ Work in progress |
 
 
